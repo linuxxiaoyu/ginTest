@@ -7,6 +7,7 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
+// Person struct define the infomation of person
 type Person struct {
 	Name     string    `form:"name"`
 	Address  string    `form:"address"`
